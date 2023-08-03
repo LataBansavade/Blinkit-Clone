@@ -87,7 +87,6 @@
 
 .heading-cat{
     margin-left: 140px;
-    
 }
 .List-categories-div{
     width: 82vw;
@@ -146,7 +145,6 @@
 
 .List-categories-row{
     display: flex;
-    
     justify-content: space-around;
     white-space: nowrap;
 }
@@ -171,23 +169,41 @@
 {
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+}
+.table-1{
+ margin-left: 0px;
+ align-items: center;
+}
+.table-2{
+ margin-left: 250px;
+ width: 700px;
+ align-items: start;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+
 }
 .row-2{
     width: 100%;
      display: flex;
      align-items: center;
      justify-content: space-between;
+     padding: 20px;
 }
 .row-2-col-1{
     width: 30vw;
 }
 .row-2-col-2{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
 }
 .row-2-col-2>button{
     width: 100px;
@@ -200,16 +216,18 @@
 }
 .row-2-col-3{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
 .row-2-col-3>a{
     border-radius: 50%;
-    background-color: #101010; 
+    background-color: #0c0c0c; 
     height: 40px;
     width: 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -220,7 +238,7 @@
     
     color:#666666 ;
     font-size: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 td{
@@ -236,3 +254,5 @@ td{
 .table-1{
     flex: 2;
 }
+
+/* //////////////////////////////////////////////////////////// */
